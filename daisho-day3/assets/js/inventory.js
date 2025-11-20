@@ -46,7 +46,7 @@ function render(){
 //------------------------------
 //3. 在庫を変更する関数 changeStock()
 //------------------------------
-function changeStock(id,fiff){
+function changeStock(id,diff){
     // id が一致する商品を探す
     const item = items.find(i=>i.id===id);
     if(!item){
